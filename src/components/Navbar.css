@@ -1,0 +1,14 @@
+.xyz {
+  display: flex;
+  color: white;
+  /* border: 1px solid red; */
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.xyz > h1 {
+  letter-spacing: 5px;
+  font-family: "Roboto", sans-serif;
+}

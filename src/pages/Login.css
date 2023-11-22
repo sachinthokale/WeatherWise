@@ -1,0 +1,59 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  background: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 100%;
+
+  height: 50vh;
+  background-color: #704362;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-box > h1 {
+  letter-spacing: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.9rem;
+  margin-bottom: 15px;
+  color: white;
+}
+.login-box > p {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+}
+.login-box > button {
+  background-color: #0c080b;
+  color: white;
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 20%;
+  border: none;
+  margin-top: 20px;
+}
+
+.login-box > button:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
